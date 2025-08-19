@@ -3,25 +3,28 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
+       
         int value = new Random().nextInt(100);
 
-        System.out.println("Привет!");
+        System.out.println("Hello!");
+        
         while (true) {
-            System.out.print("угодой число которое я загодал \n" +
-                    "введи число: ");
+            System.out.print("I have chosen a number.\n" +
+                             "Enter your guess: ");
 
             int attempt = new Scanner(System.in).nextInt();
+
             if (attempt != value) {
-                String hint = attempt > value ?
-                        "меньше" : "больше";
-                System.out.println("не верно попробуй еще раз \n" +
-                        "даю подсказку число " + hint + " " + attempt);
+                String hint = attempt > value ? "lower" : "higher";
+                System.out.println("Incorrect, try again.\n" +
+                                   "Hint: the number is " + hint + " than " + attempt);
             } else {
-                System.out.print("поздравляю вы угодали \n" +
-                        "это число " + value);
+                System.out.print("Congratulations! You guessed it.\n" +
+                                 "The number was " + value);
                 break;
             }
         }
     }
 }
+
 
