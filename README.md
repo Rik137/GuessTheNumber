@@ -48,7 +48,7 @@ The number was 37
 🚀 Future Improvements  
 Add a maximum number of attempts.  
 Allow the user to set difficulty levels.  
-Enhance the UI with colored console output.
+Enhance the UI with colored console output.  
 
 ---
-The repository exists purely as a learning and demonstration artifact.
+The repository exists purely as a learning and demonstration artifact.  
