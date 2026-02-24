@@ -1,7 +1,7 @@
-# Number Guessing Game 🎲
+# Number Guessing Game 🎲  
 
 This is a simple **Java console game** where the computer generates a random number, and you try to guess it.  
-The program gives hints whether the secret number is higher or lower than your guess.
+The program gives hints whether the secret number is higher or lower than your guess.  
 
 ---
 
